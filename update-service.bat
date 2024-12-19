@@ -4,6 +4,7 @@ set "CURRENT_VERSION=1.0.0"
 set "VERSION_FILE=version.txt"
 set "SKIP_VERSION=null"
 set "FILE_EXISTS=1"
+set "RELEASE_URL=https://github.com/Cross-devspec/TMDR/releases"
 
 for /f "delims=" %%A in ('powershell -command "[datetime]::Now.ToString('yyyy-MM-dd HH:mm:ss')"') do set CURRENT_TIMESTAMP=%%A
 
