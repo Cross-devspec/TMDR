@@ -1,7 +1,7 @@
 @ECHO off
 
 set /p "input=Create new script? [Y/n] "
-set /p "input_folder=Name of folder: "
+set /p "input_folder=Name of script?: "
 
 if %input% == Y (
     md %input_folder%-script
